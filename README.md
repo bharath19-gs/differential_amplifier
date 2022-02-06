@@ -18,11 +18,11 @@ This paper proposes the implementation of a differential amplifier using CMOS Te
 
 ### Circuit Details
 
-  A Differential Amplifier is a device that is used to amplify the difference in voltage of the two input signals. A differential amplifier is an important building block in integrated circuits of analog systems.The important advantage of differential operation over single ended operation is higher immunity to noise, the other advantage in differential amplifiers is the voltage swing.<br>
+  A **Differential Amplifier** is a device that is used to amplify the difference in voltage of the two input signals. A differential amplifier is an important building block in integrated circuits of analog systems.The important advantage of differential operation over single ended operation is higher immunity to noise, the other advantage in differential amplifiers is the voltage swing.<br>
   
   Differential amplifiers can operate in two modes which are differential mode and common mode. Common mode type gives the result of zero output while differential mode gives a result of high output, hence this amplifier has high common mode rejection ratio. If two input voltages are equal, then the differential amplifier gives an output voltage of almost zero volt and if the two input voltages are not equal the differential amplifier gives high output voltage.
   
-  Used the below design equations from reference paper[1]:<br>
+  Used the below _**design equations**_ from reference paper[1]:<br>
    ![des](https://github.com/bharath19-gs/differential_amplifier/blob/main/Implementaion%20and%20ouptuts/design_eq.png)
    
    ![des2](https://github.com/bharath19-gs/differential_amplifier/blob/main/Implementaion%20and%20ouptuts/image.png)
