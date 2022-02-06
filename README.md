@@ -26,13 +26,13 @@ This paper proposes the implementation of a differential amplifier using CMOS Te
 ### Circuit Design
 
 
-![design]
+![design](https://github.com/bharath19-gs/differential_amplifier/blob/main/Implementaion%20and%20ouptuts/Circuit.png)
 
 ### Waveform
 
 
 
-![final](https://user-images.githubusercontent.com/59924751/152654328-8f4cc87a-1f74-4f98-af74-50ee4e031fbd.JPG)
+![waveforms]
 
 ### References
 [1] Bangadkar, M.B., Scholar, P.G., Lamba, M.A. and Bhure, M.V., 2015. Study of Differential Amplifiers using CMOS..
