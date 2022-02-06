@@ -3,9 +3,9 @@
 ### This Repositery shows the design of a basic Differential Amplifier
 1. [Abstract](#Abstract)
 
-2. [Circuit Details](#Circuit Details)
+2. [Circuit Details](#Circuit-Details)
 
-3. [Circuit Design](#Cicuit Design)
+3. [Circuit Design](#Circuit-Design)
 
 4. [Waveforms](#Waveforms)
 
