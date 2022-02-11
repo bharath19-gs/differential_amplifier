@@ -22,8 +22,8 @@ VDD vdd 0 1.8
 
 
 *******Transient analysis AC Source********
-*V1  v1 0 SIN(0 2 1k 0 0 0.0)
-*V2  v2 0 SIN(0 2 1k 0 0 180.0)
+*V1  v1 0 SIN(1.8 2 1k 0 0 0.0)
+*V2  v2 0 SIN(1.8 2 1k 0 0 180.0)
 
 *******AC analysis AC Source******
 V1  v1 0 dc 1.8 ac 1
@@ -45,7 +45,16 @@ plot pm xlimit 100 1000meg ylabel 'Phase Margin'
 
 .endc
 
-	
 
+******transient analysis*****
+*.tran 0.1us 4000us
+
+*.control 
+
+*run
+*plot V(v1) V(v2) 
+*plot V(vout)
+
+*.endc
 
 .end
