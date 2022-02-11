@@ -3,16 +3,37 @@
 ### This Repositery shows the design of a basic Differential Amplifier
 1. [Abstract](#Abstract)
 
-2. [Circuit Details](#Circuit-Details)
+2. [eSim Tool Details](#eSim-Tool-Details)
 
-3. [Circuit Design](#Circuit-Design)
+3. [Circuit Details](#Circuit-Details)
 
-4. [Waveforms](#Waveforms)
+4. [Google SkyWater PDK](#Google-SkyWater-PDK) 
 
-5. [References](#References)
+4. [Circuit Design](#Circuit-Design)
+
+5. [Waveforms](#Waveforms)
+
+6. [References](#References)
 
 ### Abstract
 This paper proposes the implementation of a differential amplifier using CMOS Technology. The reference CMOS differential amplifier has been implemented using 180nm technology, with a supply voltage of 1.8v.  A differential amplifier is a circuit that can accept two input signals and amplify the difference between the two input signals by removing the common noise . This reference circuit will be implemented in the eSim EDA tool.
+
+
+### eSim Tool Details
+eSim is an open source EDA tool for circuit design, simulation, analysis and PCB design, developed by FOSSEE Team at IIT Bombay. It is an integrated tool build using open source softwares such as KiCad, Ngspice and GHDL.
+![tool_image](https://github.com/bharath19-gs/differential_amplifier/blob/main/Implementaion%20and%20ouptuts/eSim_tool.png)
+
+#### Features of the [eSim](https://github.com/FOSSEE/eSim) EDA tool 
+- An open-source EDA tool.
+- Perform Circuit Design.
+- Perform Simulation.
+- Perform Layout Design.
+- Model builder and Subcircuit builder.
+- Support for Mixed-Signal Simulations including Microcontrollers.
+- eSim has been successfully ported to low cost FOSSEE laptop.
+
+### Google Skywater PDK 
+The [SkyWater Open Source PDK](https://github.com/google/skywater-pdk) is a collaboration between Google and SkyWater Technology Foundry to provide a fully open source Process Design Kit and related resources, which can be used to create manufacturable designs at SkyWater’s facility.
 
 
 
@@ -41,6 +62,12 @@ This paper proposes the implementation of a differential amplifier using CMOS Te
 
 2. phase plot as per the design with sky130 technology file.
 ![wavefprm2](https://github.com/bharath19-gs/differential_amplifier/blob/main/Implementaion%20and%20ouptuts/phase.png)
+
+3. Input plot for transient analysis.
+![inputs](https://github.com/bharath19-gs/differential_amplifier/blob/main/Implementaion%20and%20ouptuts/transient_analysis.png)
+
+4. transient analysis output for the circuit. 
+![output](https://github.com/bharath19-gs/differential_amplifier/blob/main/Implementaion%20and%20ouptuts/transient_analysis_output.png)
 
 ### References
 [1] Bangadkar, M.B., Scholar, P.G., Lamba, M.A. and Bhure, M.V., 2015. Study of Differential Amplifiers using CMOS..
